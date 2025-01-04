@@ -8,29 +8,52 @@
 
     main{
         margin: auto;
+        width: 80%;
     }
 
-    .card{
+    .card, article, nav {
+        background-color: antiquewhite;
         display: flex;
-        flex-flow: column wrap;
         align-items: center;
         justify-content: center;
-        border-radius: 30%;
-        background-color: antiquewhite;
+    }
+
+    /* CARD */
+
+    .card{
+        flex-flow: column wrap;
+        border-radius: 20%;
         width: 400px;
-        height: 600px;
+        height: 500px;
+        justify-content: flex-end;
+        padding: 1.5em 1em;
     }
 
     .cardInfo{
-        display: flex;
         flex-direction: row;    
         align-items: center;
+        justify-content: space-around;
         width: 100%;
     }
 
 
 
     .cardImg{
+        display:none;
         overflow: hidden;
+    }
+
+
+    /* Article */
+
+    article{
+        
+    }
+
+
+    /* NaV */
+
+    nav{
+
     }
 }
